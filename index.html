@@ -29,7 +29,6 @@
     overflow-x: hidden;
   }
 
-  /* Subtle background texture */
   body::before {
     content: '';
     position: fixed;
@@ -58,7 +57,6 @@
     to   { opacity: 1; transform: translateY(0); }
   }
 
-  /* ── HEADER ── */
   .header {
     background: var(--navy);
     padding: 36px 28px 28px;
@@ -95,7 +93,6 @@
     object-fit: contain;
   }
 
-  /* SVG fallback logo */
   .logo-svg {
     width: 72px;
     height: 72px;
@@ -123,7 +120,6 @@
     animation: rise 0.7s 0.2s cubic-bezier(0.22,1,0.36,1) both;
   }
 
-  /* ── BODY ── */
   .body {
     padding: 28px 24px 32px;
     display: flex;
@@ -131,7 +127,6 @@
     gap: 12px;
   }
 
-  /* ── SECTION LABEL ── */
   .section-label {
     font-size: 9px;
     font-weight: 600;
@@ -143,7 +138,6 @@
 
   .section-label:first-of-type { margin-top: 0; }
 
-  /* ── LINK BUTTON ── */
   .link-btn {
     display: flex;
     align-items: center;
@@ -219,14 +213,12 @@
   .link-btn:hover.gold-accent .btn-arrow  { color: var(--gold); }
   .link-btn:hover.navy-accent .btn-arrow  { color: var(--navy); }
 
-  /* staggered animations */
   .link-btn:nth-child(1) { animation-delay: 0.25s; }
   .link-btn:nth-child(2) { animation-delay: 0.30s; }
   .link-btn:nth-child(3) { animation-delay: 0.35s; }
   .link-btn:nth-child(4) { animation-delay: 0.40s; }
   .link-btn:nth-child(5) { animation-delay: 0.45s; }
 
-  /* ── INFO STRIP ── */
   .info-strip {
     background: var(--navy);
     border-radius: 12px;
@@ -309,7 +301,6 @@
     flex-shrink: 0;
   }
 
-  /* ── FOOTER ── */
   .footer {
     padding: 18px 24px 24px;
     text-align: center;
@@ -427,14 +418,14 @@
 
       <div class="event-row">
         <div class="event-date">
-          <div class="event-month">May</div>
-          <div class="event-day">26</div>
+          <div class="event-month">Jul</div>
+          <div class="event-day">12</div>
         </div>
         <div class="event-info">
-          <div class="event-name">Memorial Day Weekend Event</div>
-          <div class="event-location">Location TBD · Camden County, NJ</div>
+          <div class="event-name">Brooklawn American Legion</div>
+          <div class="event-location">Brooklawn, NJ</div>
         </div>
-        <div class="event-badge">Soon</div>
+        <div class="event-badge">Coming</div>
       </div>
 
       <div class="event-row">
@@ -443,7 +434,7 @@
           <div class="event-day">—</div>
         </div>
         <div class="event-info">
-          <div class="event-name">More events coming soon</div>
+          <div class="event-name">More events being added</div>
           <div class="event-location">Follow us on Instagram for updates</div>
         </div>
       </div>
